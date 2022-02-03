@@ -7,11 +7,11 @@ public class Main {
         Calc2 c1 = new Calc2();
         Calc2 c2 = new Calc2();
         
-        c1.Name = "Awesomenes";
-        c2.Name = "Bacon egg & cheese";
+        c1.setName  ("Awesomenes");
+        c2.setName  ("Bacon egg & cheese");
         
-        System.out.println(c1.Name + " calculated " + c1.add(3,4));
-        System.out.println(c2.Name + " calculated " + c2.modlus(29,45));
+        System.out.println(c1.getName() + " calculated " + c1.add(3,4));
+        System.out.println(c2.getName() + " calculated " + c2.modlus(29,45));
     }    
 }
     
