@@ -1,4 +1,6 @@
-public class Calculator2
+package Calc2;
+
+public class Calc2
 {
     
    String Name;
@@ -25,6 +27,6 @@ public class Calculator2
     }  
    
        public int modlus(int x, int y) {
-       return x + y; // %5 % 4 = 
+       return x % y;  
     }  
 }
