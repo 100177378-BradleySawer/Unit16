@@ -1,20 +1,32 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package calculator2;
 
-/**
- *
- * @author 100177378
- */
-public class Calculator2 {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
+public class Calculator2
+{
     
+   String Name;
+
+   
+   
+   public int add(int x, int y) {
+       return x + y;
+   }  
+   
+  
+   
+   public int subtract(int x, int y) {
+       return x - y;
+    }  
+
+   public int multiply(int x, int y) {
+       return x * y;
+     }  
+  
+        
+   public int divide(int x, int y) {
+       return x / y;
+    }  
+   
+       public int modlus(int x, int y) {
+       return x + y; // %5 % 4 = 
+    }  
 }
